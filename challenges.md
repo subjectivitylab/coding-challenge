@@ -13,3 +13,5 @@ If this is your very first encounter with HTML/CSS/JS, you can start reading [he
 If you want to get a sense of what a full experiment that we've used in the past, dive into the Examples folder. There's some source code for experiments that I (Jorge) have used in the past. The first thing you should know is that... I'm not a great programmer! I hope this is somewhat encouraging especially if you're just learning (and hopefully it's not to embarrassing if you're already an expert programer). I do think that the most important thing about code is that it works as it is intended (e.g. stimuli are presented correctly, data is saved adequately). Other things can be secondary to these. 
 
 ## Challenge 1: Design a functional website
+
+This is a test
