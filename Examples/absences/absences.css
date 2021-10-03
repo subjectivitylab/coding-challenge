@@ -1,0 +1,232 @@
+a {
+	 color: black;
+	 background-color: snow;
+	 text-decoration: none;
+ }
+
+a:hover {
+	 color: gray;
+ }
+
+a:active {
+	 color: rgb(80,80,110);
+ }
+
+button:hover {
+    background-color: cornflowerblue;    
+}
+
+button:active {
+    background-color: steelblue; 
+}
+
+.myButton {
+	display: block;
+	width: auto;
+    height: auto;
+	margin: 30px auto;		
+	padding: .75em;	
+	text-align: center;	
+	font-weight: 300;
+	font-size: 16pt;
+	color: white;
+	border: 0px solid rgb(0, 128, 255);
+    border-radius: 20px;
+	background-color: rgb(0, 128, 255);		
+}
+
+body {	
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: lightgray;	
+	font-size: 16pt;
+	font-weight: normal;
+	color: black;
+    margin-top: 30px;
+	
+}
+
+h1 {
+	margin-top: 10px;
+	font-size: 20pt;
+	text-align: center;
+}
+
+img {
+	width: 100%;			
+}	
+
+.blank {
+	display: none;
+}
+
+#main {
+	background-color: lightgray;	
+	width: 90%;
+	max-width: 650px;
+    max-width: 700px;
+	margin: auto;
+	padding: 25px;
+}
+
+.instructions {
+	display: none;
+}
+
+#instructions2 {
+    margin-top: -25px;
+}
+#demoText, #demoTitle {
+	display: none;
+	text-align: center;
+	font-size: 24pt;
+}
+
+#demoText {
+	color: lightgray;
+    margin-bottom: -5px;
+}
+
+#pause {
+    display: none;
+}
+
+#stimContainer {
+	display: none;
+	padding: 15px;
+    border: solid black 0pt;
+}
+
+#stimBox {
+	display: grid;       
+	width: 600px;			
+	height: 600px;
+	margin: auto;	
+    padding: 0px;
+	background-color: darkgray;    
+	border: solid black 10pt;
+	grid-template-columns: 100%;
+	grid-template-rows: 100%;
+    column-gap: 0px;        
+}
+			
+.stimulus {
+	display: grid;
+    position: relative;    
+    background-color: transparent;
+    border: solid 0pt black;
+    width: 300px;
+    z-index: 0;    
+}
+
+.circle {
+    display: grid;
+    
+    margin: auto;    
+    border: 0pt;
+    background-color: transparent;       
+    z-index: 1;    
+    width: 50px;   
+}
+
+#circleProbe {    
+    display: none;
+    position: absolute;
+    width: 25px;    
+}
+
+.progress {
+	text-align: center;
+	display: none;        
+	height: 60px;
+	margin-bottom: 30px;
+   
+}	 	
+
+#practiceEnd {
+	display: none;
+	text-align: center;
+}    
+
+#progressOutline {
+	background: white;
+	border: 3px solid black;
+	width: 100px;	
+	height: 20px;
+	margin: 10px auto;	    
+}
+
+#progressBar {		
+	display: none;    
+	background: gray;    
+	width: 0px;
+	height: 20px;	      
+}
+
+#practiceTextEnd {
+	font-size: 16pt;
+	color: black;
+	font-weight: bold;
+	margin: 10px auto;
+}
+
+#waitLoadImages, #informedConsent {
+	font-weight: normal;
+    font-size: 14pt;
+	font-style: italic;
+	text-align: center;
+}
+
+#tooSlow {
+	display: block;
+	color: lightgray;
+	text-align: center;
+}
+
+#feedbackLegends {
+	height: 80px;
+}
+
+#keyInstructions {
+    display: none;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20pt;
+    font-weight: 100;
+    color: rgb(55,55,55);    
+}
+
+.keys {	
+    display: none;
+    position: absolute;
+    width: 50px;
+    height: auto;
+    margin-left: 275px; 
+    margin-top: 275px; 
+    grid-column: 1/11;
+    grid-row: 1/11;
+}
+
+#doneText, #submitPage {
+	display: none;
+	width: 65%;
+	max-width: 700px;
+	height: auto;
+	text-align:center;
+	margin: 30px auto;
+	font-size: 18pt;	
+}
+
+#initialCountDown {
+    display: none;        
+    margin: auto; 
+    grid-column: 1/11;
+    grid-row: 1/11;
+    font-weight: bold;
+    font-size: 100pt;
+    z-index: 10;
+}
+
+#finalCountDown {
+    font-weight: bold;
+    font-size: 30pt;
+}   

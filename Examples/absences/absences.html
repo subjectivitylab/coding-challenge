@@ -1,0 +1,167 @@
+<!-- This experiment tests subjects' RT to detect if a probe appeared on real empty space or on empty space of an absent part of an object.
+
+Written by Jorge Morales, April 2021 -->
+
+<html lang=en>
+
+	<head>
+		<meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="icon" type="image/png" href="images/lab_logo.png">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+		<script src="https://jm.perceptionresearch.org/jsFunctions/myFunctions.js"></script>  <!-- my old lab's server where a few recurrent customized functions (used to) live-->
+
+        <link rel="stylesheet" type="text/css" href="absences.css">
+
+        <script src="absences.js"></script>
+
+	</head>
+
+	<body>
+
+		<title>Where is the circle?</title>
+
+		<div class = container id = main>
+			<div class = container id = firstPage>
+
+				<h1>Welcome!</h1>
+
+				<div class = container id = waitLoadImages>
+					<p>Please wait while your browser finishes a few things behind the scenes.</p>
+				</div>
+
+				<button class = myButton id = showInstructionsButton onclick="showInstructions();">Enter Full Screen Mode</button>
+
+			</div>
+
+			<div class = container id = experiment>
+
+    			<div class = practiceTrials>
+
+					<h1 id = practiceText>Practice</h1>
+
+					<div id="practiceEnd">You're done with practice.<br><br> Please make sure your browser remains in full screen mode.<br>
+
+                        <button class = myButton id = startExperimentalTrialsButton onclick="startExperimentalTrials();">Start Study</button></div>
+
+				</div>
+
+				<div class = experimentalTrials>
+
+					<div class="progress" id="progressText">
+
+						<h1>Progress</h1>
+
+						<div class="progress" id="progressOutline">
+
+							<div class="progress" id="progressBar"></div>
+        				</div>
+    				</div>
+
+				</div>
+
+			</div>
+
+            <div id = pause>
+                <br><br><br><br><br>
+                <p>If you want, you can take a short break now (maybe just a few seconds). Press space bar to continue.</p><br>
+                <p><em>Just be mindful that if your break is too long, Prolific might not let you submit your work.</em></p>
+            </div>
+
+			<div class = instructions id = instructions1>
+
+				<h1>Where is the circle?</h1>
+
+				<br>
+
+				<p>Help us better understand how people's vision work.</p>
+
+                <p><b>Your task is simply to tell us if this circle appears <em>on an object</em> or <em>on empty space</em>.</b></p>
+
+                <img class = circle id = circleExample src = ../../../images/empty_space/circle/circle.svg>
+                <br>
+
+                <p>An object will appear inside a black box. Then, a red circle will appear somewhere in the black box. If the circle appears <br> <br>
+                    &nbsp;&nbsp; <b><span id="keyForA"></span></b>
+                    <br>
+                    <br>
+                    if the circle appears
+                    <br> <br>
+                    &nbsp;&nbsp; <b><span id="keyForL"></span></b>
+                    <br>
+			</div>
+
+			<div class = instructions id = demoInstructions>
+
+				<button class = myButton id = startDemoButton onclick="startDemo()" href='#demoInstructions'>Show demo</button>
+
+				<br><p id = demoTitle><b>DEMO</b></p>
+
+                <p id = demoText> . </p>
+
+			</div>
+
+			<div id = stimContainer>
+
+				<div id = stimBox>
+
+                    <span id = initialCountDown><b>5</b></span>
+
+                    <img class = "circle" id = circleProbe src = ../../../images/empty_space/circle/circle.svg>
+
+                    <img class = "stimulus butterfly" id = butterflyLeft src = ../../../images/empty_space/circle/butterfly/normal/butterflyLeft.svg>
+                    <img class = "stimulus butterfly" id = butterflyRight src = ../../../images/empty_space/circle/butterfly/normal/butterflyRight.svg>
+
+                    <img class = "stimulus jacket" id = jacketLeft src = ../../../images/empty_space/circle/jacket/normal/jacketLeft.svg>
+                    <img class = "stimulus jacket" id = jacketRight src = ../../../images/empty_space/circle/jacket/normal/jacketRight.svg>
+
+                    <img class = "stimulus bicycle" id = bicycleLeft src = ../../../images/empty_space/circle/bicycle/normal/bicycleLeft.svg>
+                    <img class = "stimulus bicycle" id = bicycleRight src = ../../../images/empty_space/circle/bicycle/normal/bicycleRight.svg>
+
+                    <img class = "stimulus pants" id = pantsLeft src = ../../../images/empty_space/circle/pants/normal/pantsLeft.svg>
+                    <img class = "stimulus pants" id = pantsRight src = ../../../images/empty_space/circle/pants/normal/pantsRight.svg>
+
+                    <img class = "keys" id = a-key src = "../../../images/empty_space/keys/a-key.png">
+                    <img class = "keys" id = l-key src = "../../../images/empty_space/keys/l-key.png">
+
+			    </div>
+
+				<div class = feedbackLegends>
+					<p id = keyInstructions></p>
+					<p id = tooSlow>TOO SLOW! Press spacebar to continue.</p>
+				</div>
+			</div>
+
+			<div class = instructions id = instructions2>
+
+				<p><b>Try responding correctly as fast as you can.</b> Please mind that your responses will be most useful if a majority of them are correct. </p>
+
+				<p>This is a short study, so please try to stay focused. It's important that you pay attention to the screen all the time.</p>
+
+				<br>
+				<p id = informedConsent>Make sure your browser window remains in full screen mode. You must be on a laptop or desktop computer to participate in this study (no cellphones or tablets). Click on &quot;Start Study&quot; to begin with a few practice trials. <br><br> By completing this survey or questionnaire, you are consenting to be in this research study. Your participation is voluntary and you can stop at any time.</p>
+
+				<button class = myButton id = startPracticeButton onclick="startPractice()">Start Practice</button>
+
+			</div>
+
+		</div>
+
+        <div class = container id = doneText>
+            <p>Feel free to leave us comments about the study.</p>
+            <textarea id = 'commentBox' rows=10 cols=80 placeholder = 'Enter comments here...'></textarea>
+            <br><br>
+            <b><em>Make sure to click "Go back to Prolific" otherwise you won't get paid!</em></b>
+            <button class = myButton id = submit onclick="submit();">Go back to Prolific</button>
+        </div>
+
+        <div class = container id = submitPage>
+             <p>Thank you!<br><br>Your browser should automatically redirect you to Prolific's webpage where you will be given a completion code.<br><br>Redirecting to Prolific in <span id = finalCountDown><b>5</b></span><br><br>If you're not automatically redirected in a few seconds, please copy and paste this address on your web browser:<b><br><br><span id = urlProlific></span><br><br></b></p><br>
+        </div>
+
+	</body>
+</html>
