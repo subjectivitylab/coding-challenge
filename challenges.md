@@ -12,7 +12,14 @@ If this is your very first encounter with HTML/CSS/JS, you read [this](https://d
 
 If you want to get a sense of what a full experiment looks like, dive into the Examples folder. There you'll find source code for some experiments that I (Jorge) have used in the past. The first thing you should know is that... I'm not a great programmer! I hope this is somewhat encouraging especially if you're just learning (and hopefully it's not too embarrassing if you're already an expert coder). The most important thing about code is that it works as it is intended (e.g. stimuli are presented correctly, data is saved adequately). Other things can be secondary to these. 
 
-## Challenge 1: Design a functional website
+## Instructions
+
+Create the following three experiments, upload them to the Lab's GitHub and ping Jorge to alert him to check them. 
+
+### Challenge 1: Where is the white square?
 
 
-## Challenge 2: Design a functional website
+### Challenge 2: Design a functional website
+
+
+### Challenge 3: Design a functional website
