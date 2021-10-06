@@ -30,7 +30,7 @@ Design an experiment where subjects determine whether a white square appeared on
 
 1.4 Counterbalance the distractors: On half of the trials in which the square appears on the left, the right square is red and on the other half it's green. Same applies when the white square appears on the right.
 
-1.5 For each trial, record in a dictionary called "expData" arrays with the most relevant information about each trial, including on which side the white square appeared, what color was the other square, what key they pressed, reaction time (i.e. how long it took subjects to responde—from the instant the stimuli appear on the screen to when they press a key), whether the subject's response was correct or incorrect.
+1.5 For each trial, record in a dictionary called "expData" arrays with the most relevant information about each trial, including on which side the white square appeared, what color was the other square, what key they pressed, reaction time (i.e. how long it took subjects to respond—from the instant the stimuli appear on the screen to when they press a key), and whether the subject's response was correct or incorrect.
 
 1.6 Add an instructions page at the beginning where you explain the task to the subject. At the bottom have a button that, when clicked, erases the instructions from the screen and begin presenting the trials after a 2000ms delay. 
 
@@ -38,7 +38,7 @@ Design an experiment where subjects determine whether a white square appeared on
 
 1.8 Add format! Make the instructions appear in black font, text center-aligned, on a white background. Make the button dark blue (with the exact rgb values (0, 140, 186)), with white text and somewhat large. The experiment's background color should the HEX color 7F7F7F.
 
-
+1.9 Substitute the squares with pictures. Instead of a white square, the new target should be a picture of a puppy. The green and red distractors should now be pictures of a kitten and a baby bear. Make sure the images are still 100x100px and that they are not distorted (i.e. they shouldn't look squeezed or stretched). Change the instructions accordingly.
 
 ### Challenge 2: Coming soon!
 
