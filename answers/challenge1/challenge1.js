@@ -23,6 +23,7 @@ $(document).ready(function() {
 });
 
 function shuffle(array) {
+
     var m = array.length, t, i;
   
     // While there remain elements to shuffle…
@@ -38,7 +39,7 @@ function shuffle(array) {
     }
   
     return array;
-  }
+}
 
 function createTrials () {
     targetSide = ["left","right"];
