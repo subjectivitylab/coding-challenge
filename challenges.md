@@ -16,7 +16,7 @@ If you want to get a sense of what a full experiment looks like, dive into the E
 
 Create the following three experiments and upload them to the Lab's GitHub. You should create a private folder with your name (LAST-FIRST), with subfolders for each challenge. Each challenge should contain an .html, .css, .js file and, if applicable, a folder with images. You can alert Jorge after finishing each challenge or you can wait until you finish all of them.
 
-To finish this challenges you should download Visual Code Studio
+To complete these challenges you'll need to download Visual Studio Code (or use your preferred editor, if you have one)
 
 ### Challenge 1: Where is the white square?
 
