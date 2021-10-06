@@ -1,21 +1,37 @@
 body {	
-	font-family: Arial, Helvetica, sans-serif;
-	background-color: rgb(127,127,127);
-	font-size: 26pt;
-	font-weight: bold;
+	background-color: white;	
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+	font-weight: normal;
 	color: black;    	
+    text-align: center;
+    line-height: 1.5vw;
 }
 
-#tooSlow {    
-    display: none;    
-    text-align: center;
+button {
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(0, 140, 186);
+    border: 2pt black;
 }
 
 #container {    
+    display: block;
     width: 500px;
     height: 500px;
     margin: auto;
     padding: 50px;
+}
+
+#instructions {
+    display: block;
+    line-height: 1.5;
+}
+
+#experimentBox {
+    display: none;
 }
 
 .square {    
@@ -34,4 +50,11 @@ body {
 
 #rightSquare {
     left: calc(50% + 200px);
+}
+
+#endMessage {
+    display: none;
+    font-size: 24pt;
+    text-align: center;
+    margin: auto;    
 }

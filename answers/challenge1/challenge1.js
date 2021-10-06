@@ -7,6 +7,7 @@ var correct;
 
 // create global variables for all trials
 var iti = 500; //ms
+var startDelay = 2000; //ms
 var currentTrial = -1;
 var targetSides = [];
 var distractorColors = [];
@@ -16,12 +17,17 @@ var corrects = [];
 var trials = [];
 var expData = {};
 
-
 $(document).ready(function() {
     createTrials();   
-    setTimeout(nextTrial,iti); 
 });
 
+function beginExperiment() {
+    $("#instructions").hide();
+    $("#experimentBox").show();
+    $("body").css("background-color","#7F7F7F");
+    setTimeout(nextTrial, startDelay); 
+}
+ 
 function shuffle(array) {
     var m = array.length, t, i;
   
@@ -63,11 +69,13 @@ function createTrials () {
 
 function nextTrial () {
     $(".square").hide();
-    $("#tooSlow").hide();
     currentTrial += 1;
     if (currentTrial < trials.length) {        
         setTimeout(presentStimuli,iti);
     } else {
+        $("#experimentBox").hide();
+        $("#endMessage").show();
+        $("body").css("background-color", "white");
         saveAllData();
     }
 }
