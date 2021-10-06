@@ -22,17 +22,25 @@ To finish this challenges you should download Visual Code Studio
 
 Design an experiment where subjects determine whether a white square appeared on the left or the right side of the screen. 
 
-1.1 In each trial, subjects see a 100x100px white square 200px to the left or to the right of the center of the screen (the side is randomly determined). In each trial, on the other side of the screen, a green or red 100x100px square appears too (the color is randomly determined). Subjects press a key ("L" or "R") to select the white square side. The next trial begins after 500ms. The experiment consists in 8 trials. 
+1.1 In each trial, subjects see a 100x100px white square 200px to the left or to the right of the center of the screen (the side is randomly determined). In each trial, on the other side of the screen, a green or red 100x100px square appears too (the color is randomly determined). Subjects press a key ("L" or "R") to select the white square side. The next trial begins after 500ms. The experiment consists in 8 trials. The background color should be gray.
 
-1.2 The squares appear only for 250ms and after they disappear subjects have no more than 1500ms to respond. Otherwise, a message appears on the screen for 1000ms saying they were too slow and the next trial begins.
+1.2 The squares appear only for 250ms.
 
 1.3 Counterbalance the presentation side of the white square (i.e. make it appear, in a random order, the same number of times on the left and the right). Think why this is better than mere randomization.
 
 1.4 Counterbalance the distractors: On half of the trials in which the square appears on the left, the right square is red and on the other half it's green. Same applies when the white square appears on the right.
 
-1.5 For each trial, record in a dictionary called "expData" arrays with the most relevant information about each trial, including on which side the white square appeared, what color was the other square, what key they pressed, reaction time (i.e. how long it took subjects to responde—from the instant the stimuli appear on the screen to when they press a key), whether the subject's response was correct, incorrect, or if they were too slow.
+1.5 For each trial, record in a dictionary called "expData" arrays with the most relevant information about each trial, including on which side the white square appeared, what color was the other square, what key they pressed, reaction time (i.e. how long it took subjects to responde—from the instant the stimuli appear on the screen to when they press a key), whether the subject's response was correct or incorrect.
 
-### Challenge 2: 
+1.6 Add an instructions page at the beginning where you explain the task to the subject. At the bottom have a button that, when clicked, erases the instructions from the screen and begin presenting the trials after a 2000ms delay. 
+
+1.7 After the final trial, add a message thanking the subject for their participation. Make the message appear on a white background, centered at the top of the screen in big, bold font.
+
+1.8 Add format! Make the instructions appear in black font, text center-aligned, on a white background. Make the button dark blue (with the exact rgb values (0, 140, 186)), with white text and somewhat large. The experiment's background color should the HEX color 7F7F7F.
 
 
-### Challenge 3: 
+
+### Challenge 2: Coming soon!
+
+
+### Challenge 3: Coming soon!

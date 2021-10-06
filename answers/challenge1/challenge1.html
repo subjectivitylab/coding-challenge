@@ -10,9 +10,20 @@
 
     <body>
         <div id = container>
-            <div class = square id = leftSquare></div>
-            <div class = square id = rightSquare></div>            
-            <p id = tooSlow>Too slow!</p>
+            <div id = instructions>
+                <p><strong>Welcome to the experiment!</strong><br><br>
+                    In this study, you'll see two squares in each trial: one white and one with a different color. Your task is to select the side where the white square appears. If the white square appears on the <strong>left</strong>, press <strong>"L"</strong> on your keyboard; it if appears on the <strong>right</strong>, then press <strong>"R"</strong> on your keyboard.
+                </p>
+                <br>
+                <button onclick="beginExperiment()">Start</button>
+            </div>
+            <div id = experimentBox>
+                <div class = square id = leftSquare></div>
+                <div class = square id = rightSquare></div>                        
+            </div>
+            <div id = endMessage>
+                <p>Thank you for participating!</p>
+            </div>
         </div>
     </body>
         
