@@ -9,7 +9,6 @@ Coding can be fun and the basics are often relatively easy to learn. At the begi
 
 In the spirit of this approach to coding, in this GitHub repository you'll find three coding "challenges" with different difficulty degrees: challenge 1 is a bit easier than challege 2 which is a bit easier than challenge 3. Depending on your current coding skills, you may approach the challenges differently.
 
-
 ## You've never programmed before
 
 Fear not! Learning how to program can be really fun, extremely useful, and actually [pretty cool](https://twitter.com/frankefoster/status/1443982309443600384)! Although challenges 1-3 are supposed to increase in difficulty, challenge 1 might be where you spend most of your time. That is only normal since you're learning to code from scratch. Think of it like this: reading Harry Potter is easier than reading Shakespeare. Sure. But only if you already speak English! The effort required to learn enough English to understand Harry Potter is likely larger than the effort required to move from Harry Potter to Shakespeare. So, be patient! At the beginning things might not make too much sense and you might not know what to do next. But rest reassured, once you get it (and you will!), it'll just be a matter of practice.
@@ -20,10 +19,10 @@ Transfering your skills from another language (e.g. Python, MatLab) to HTML/CSS/
 
 ## You already know how to code in HTML/JS/CSS 
 
-If you already know how to code using these languages, you could think of the challenges as "test" of your skills. If you solve all the three challenges quickly and easily, you're probably ready to go ahead and try out coding a real experiment with the lab. If you finished them all but it was hard, you probably are ready to code experiments too, but you'll need to pick up some new tricks/practice more to get to a comfortable and efficient level. If you solved at least one problem, but struggled with one or two challenges, you probably just need a bit more time to learn and practice more, keep going!
+If you already know how to code using these languages, you could think of the challenges as a "test" of your skills. If you solve all the three challenges quickly and easily, you're probably ready to go ahead and try out coding a real experiment with the lab. If you finished them all but it was harder than you expected, you probably are ready to code experiments, but you'll need to pick up some new tricks/practice more to get to a comfortable and efficient level.
 
 ## General adivce
 
-Google.Is.Your.Friend. You can (and forever will) google your way through coding. There are (probably literally) millions of resources out there. Even experienced coders google things all the time (from the most basic syntax questions to the most difficult problems). Google how to do things, find tutorials for your level of skill. And don't feel that you need to know everything about the language from a theoretical point of view before actually trying to code. Just go for it. You won't break anything :)
+Google.Is.Your.Friend. You can (and forever will) google your way through coding. There are (probably literally) millions of resources out there. Even experienced coders google things all the time (from the most basic syntax questions to the most difficult problems). Google how to do things, find tutorials appropriate for your level of skill. And don't feel that you need to know everything about the language from a theoretical point of view before actually trying to code. Just go for it. You won't break anything :)
 
-Good luck and have fun programming!
+Have fun programming!
