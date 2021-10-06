@@ -1,0 +1,37 @@
+body {	
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: rgb(127,127,127);
+	font-size: 26pt;
+	font-weight: bold;
+	color: black;    	
+}
+
+#tooSlow {    
+    display: none;    
+    text-align: center;
+}
+
+#container {    
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    padding: 50px;
+}
+
+.square {    
+    display: none;    
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+#leftSquare {
+    left: calc(50% - 200px);
+}
+
+#rightSquare {
+    left: calc(50% + 200px);
+}
