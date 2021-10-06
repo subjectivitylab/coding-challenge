@@ -6,7 +6,7 @@ I have found this the best way for one to learn HTML/CSS/JS, i.e. to learn by ac
 
 ## Prep work
 
-HTML is the most basic building block of the Web. It defines the meaning and structure of web content. Other languages besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript). To code in HTML/CSS/JS you'll need a code editor. There are many out there, and you should use the one that makes you feel more comfrotable. However, I think open-source editors with good GitHub integration that allows you to preview HTML/CSS/JavaScript code is what you need. [Atom](http://atom.io) and [Visual Studio Code](http://code.visualstudio.com) are good editors that meet these requirements. For what is worth, Jorge uses VSC.
+HTML is the most basic building block of the Web. It defines the meaning and structure of web content. Other languages besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript). To code in HTML/CSS/JS you'll need a code editor. The code editor we recommend in the lab is [Visual Studio Code](http://code.visualstudio.com). It allows for seamless GitHub integration and you can preview HTML/CSS/JS code. For the same reason I recommend you the download GitHub desktop app. If you are familiar with coding already or you know how to use GitHub and have a different code editor or GitHub workflow preferences, you are welcome to use that. Otherwise, use Visual Studio Code. 
 
 If this is your very first encounter with HTML/CSS/JS, you read [this](https://developer.mozilla.org/en-US/docs/Web/HTML) to familiarize yourself with the very basics of these languages. Even though they are different languages, you'll need to integrate the three of them for making beautiful, functional, dynamic websites — which is basically what we use for running online experiments. There are tens if not hundreds of tutorials out there that you can rely on (but do let me konw if you find one that you particularly like so that we can add it to our resources section). So, just pick one and start learning the basics. It probably makes sense to start with HTML, then move onto CSS, and finally incorporate JS. 
 
@@ -14,12 +14,25 @@ If you want to get a sense of what a full experiment looks like, dive into the E
 
 ## Instructions
 
-Create the following three experiments, upload them to the Lab's GitHub and ping Jorge to alert him to check them. 
+Create the following three experiments and upload them to the Lab's GitHub. You should create a private folder with your name (LAST-FIRST), with subfolders for each challenge. Each challenge should contain an .html, .css, .js file and, if applicable, a folder with images. You can alert Jorge after finishing each challenge or you can wait until you finish all of them.
+
+To finish this challenges you should download Visual Code Studio
 
 ### Challenge 1: Where is the white square?
 
+Design an experiment where subjects determine whether a white square appeared on the left or the right side of the screen. 
 
-### Challenge 2: Design a functional website
+1.1 In each trial, subjects see a 100x100px white square 200px to the left or to the right of the center of the screen (the side is randomly determined). In each trial, on the other side of the screen, a green or red 100x100px square appears too (the color is randomly determined). Subjects press a key ("L" or "R") to select the white square side. The next trial begins after 500ms. The experiment consists in 8 trials. 
+
+1.2 The squares appear only for 250ms and after they disappear subjects have no more than 1500ms to respond. Otherwise, a message appears on the screen for 1000ms saying they were too slow and the next trial begins.
+
+1.3 Counterbalance the presentation side of the white square (i.e. make it appear, in a random order, the same number of times on the left and the right). Think why this is better than mere randomization.
+
+1.4 Counterbalance the distractors: On half of the trials in which the square appears on the left, the right square is red and on the other half it's green. Same applies when the white square appears on the right.
+
+1.5 For each trial, record in a dictionary called "expData" arrays with the most relevant information about each trial, including on which side the white square appeared, what color was the other square, what key they pressed, reaction time (i.e. how long it took subjects to responde—from the instant the stimuli appear on the screen to when they press a key), whether the subject's response was correct, incorrect, or if they were too slow.
+
+### Challenge 2: 
 
 
-### Challenge 3: Design a functional website
+### Challenge 3: 
