@@ -16,9 +16,6 @@ If you want to get a sense of what a full experiment looks like, dive into the E
 
 To complete these challenges you'll need to download Visual Studio Code to write up your code (or use your preferred editor, if you have one). 
 
-To share your code, create a repository in your GitHub account (something like "Subjectivity-Lab-Challenges" or some such). Create a folder for each Challenge, and make sure to include the .html, .css, and .js files as well as a folder with any required images. Then, give me access to the repository. (If this sounds like rocket science or gibberish right now, don't worry, you'll probably now what it means after spending some time learning how to code and how to navigate GitHub—it's a great collaboration platform for working with code. You can learn the basics of how to use GitHub [here](https://guides.github.com/activities/hello-world/)).
-
-
 ### Challenge 1: Where is the white square?
 
 Design a very simple task where subjects just determine whether a white square appeared on the left or the right side of the screen. 
@@ -53,10 +50,19 @@ Program a simple experiment to test the famous [Stroop Effect](https://en.wikipe
 
 2.3 Create the trial structure. Create trials such that in half of them the words are congruent with one of five font colors (RED, GREEN, BLUE, BROWN, PURPLE), and in half it is incongruent. Now, you need to have all the possible combinations for the incongruent trials, and a matching number of trials for the congruent ones. (e.g. for incongruent trials, RED needs to appear in blue, green, brown and purple colors, so you need 4 trials with RED in red font to make sure there are the same number of congruent and incongruent trials for each color word). Present in random order.
 
-2.4 Create the experiment. In each trial, subjects see a color word in capital letters, sans-serif font, that is 20pt in size, exactly in the middle of the screen (both vertically and horizontally). The word remains on screen until subjects respond. At the bottom of the screen there are five 100x100px circles evenly distributed each with a matching color for each font color used in the words. To select the font color, subjects use their mouse to click on the circle.
+2.4 Create the experiment. In each trial, subjects see a color word in capital letters, sans-serif font, that is 20pt in size, exactly in the middle of the screen (both vertically and horizontally). The word remains on screen until subjects respond. At the bottom of the screen there are five 100x100px circles evenly distributed each with a matching color for each font color used in the words. To select the font color, subjects use their mouse to click on the circle. Once they click on a circle, they advance to the next trial, which starts 500ms afterwards.
 
 2.5 Make sure the order of the response circles at the bottom is randomized across subjects (but is kept fixed for the duration of the experiment for each subject).
 
-2.6 Record all the data from each trial in a dictionary called "expData" with arrays containing the most relevant information, including on which side the white square appeared, what color was the other square, what key they pressed, reaction time (i.e. how long it took subjects to respond—from the instant the stimuli appear on the screen to when they press a key), and whether the subject's response was correct or incorrect.
+2.6 Record all the data from each trial in a dictionary called "expData" with arrays containing the most relevant information, including word color, font color, their response (which circle they picked), reaction time (i.e. how long it took subjects to respond—from the instant the word appears on the screen to when they click on a circle).
+
+==BONUS==
+
+2.7 Prevent subjects from moving to the next trial unless they select the correct answer. Reaction time is now set from stimulus presentation to until they select the correct response, not their first response (in case they are different). Add to expData an array with information about which circles subjects clicked on before giving a correct answer as well as the RT for each click.
 
 ### Challenge 3: Coming soon!
+
+
+## What do I do when I'm done?
+
+To share your code, create a repository in your Github account (something like "Subjectivity-Lab-Challenges" or some such). Create a folder for each Challenge, and make sure to include the .html, .css, and .js files as well as a folder with any required images. Then, give me access to the repository. (If this sounds like rocket science or gibberish right now, don't worry, you'll probably know what it means after spending some time learning how to code and how to navigate Github—it's a great collaboration platform for working with code. You can learn the basics of how to use GitHub [here](https://guides.github.com/activities/hello-world/)).
