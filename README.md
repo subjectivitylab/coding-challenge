@@ -25,4 +25,4 @@ If you already know how to code using these languages, you could think of the ch
 
 Google.Is.Your.Friend. You can (and forever will) google your way through coding. There are (probably literally) millions of resources out there. Even experienced coders google things all the time (from the most basic syntax questions to the most difficult problems). Google how to do things, find tutorials appropriate for your level of skill. And don't feel that you need to know everything about the language from a theoretical point of view before actually trying to code. Just go for it. You won't break anything :)
 
-Have fun programming!
+Go read the challenges.md file now, and...have fun coding!
