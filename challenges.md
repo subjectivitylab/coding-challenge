@@ -40,6 +40,7 @@ Design an experiment where subjects determine whether a white square appeared on
 1.8 Record all the data from each trial in a dictionary called "expData" with arrays containing the most relevant information, including on which side the white square appeared, what color was the other square, what key they pressed, reaction time (i.e. how long it took subjects to respond—from the instant the stimuli appear on the screen to when they press a key), and whether the subject's response was correct or incorrect.
 
 ==BONUS==
+
 1.9 Substitute the squares with pictures. Instead of a white square, the new target should be a picture of a puppy. The green and red distractors should now be pictures of a kitten and a baby bear. Make sure the images are still 100x100px and that they are not distorted (i.e. they shouldn't look squeezed or stretched). Change the instructions accordingly.
 
 ### Challenge 2: Coming soon!
