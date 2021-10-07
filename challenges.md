@@ -63,6 +63,6 @@ Program a simple experiment to test the famous [Stroop Effect](https://en.wikipe
 ### Challenge 3: Coming soon!
 
 
-## What do I do when I'm done?
+## What to do when you're done
 
-To share your code, create a repository in your Github account (something like "Subjectivity-Lab-Challenges" or some such). Create a folder for each Challenge, and make sure to include the .html, .css, and .js files as well as a folder with any required images. Then, give me access to the repository. (If this sounds like rocket science or gibberish right now, don't worry, you'll probably know what it means after spending some time learning how to code and how to navigate Github—it's a great collaboration platform for working with code. You can learn the basics of how to use GitHub [here](https://guides.github.com/activities/hello-world/)).
+To share your code, create a repository in your GitHub account (something like "Subjectivity-Lab-Challenges" or some such). Create a folder for each Challenge, and make sure to include the .html, .css, and .js files as well as a folder with any required images. Then, give me access to the repository. (If this sounds like rocket science or gibberish right now, don't worry, you'll probably know what it means after spending some time learning how to code and how to navigate GitHub—it's a great collaboration platform for working with code. You can learn the basics of how to use GitHub [here](https://guides.github.com/activities/hello-world/)).
