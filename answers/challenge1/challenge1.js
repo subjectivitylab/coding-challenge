@@ -6,8 +6,8 @@ var response;
 var correct;
 
 // create global variables for all trials
-var iti = 500; //ms
-var startDelay = 2000; //ms
+const iti = 500; //ms
+const startDelay = 2000; //ms
 var currentTrial = -1;
 var targetSides = [];
 var distractorColors = [];

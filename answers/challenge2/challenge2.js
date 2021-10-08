@@ -9,16 +9,16 @@ var partialResponse = [];
 var numberError;
 var congruency;
 var circleColors;
-var colors = ["red","green", "blue", "yellow"];
-var red = "rgb(255, 0, 0)";
-var green = "rgb(127, 255, 0)";
-var blue = "rgb(28, 191, 255)";
-var yellow = "rgb(255, 255, 0)";
+const colors = ["red","green", "blue", "yellow"];
+const red = "rgb(255, 0, 0)";
+const green = "rgb(127, 255, 0)";
+const blue = "rgb(28, 191, 255)";
+const yellow = "rgb(255, 255, 0)";
 
 
 // create global variables for all trials
-var iti = 500; //ms
-var startDelay = 2000; //ms
+const iti = 500; //ms
+const startDelay = 2000; //ms
 var currentTrial = -1;
 var colorWords = [];
 var fontColors = [];
@@ -34,6 +34,7 @@ var expData = {};
 $(document).ready(function() {
     createTrials();
     determinecircleColors();    
+    document.querySelector('video').playbackRate = .60;
 });
 
 function determinecircleColors () {
