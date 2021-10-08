@@ -28,13 +28,13 @@ button {
 }
 
 #instructions {
-    display: none;
+    display: block;
     line-height: 1.5;
     text-align: justify;
 }
 
 #demoBox {
-    display: block;
+    display: none;
 }
 
 #demo {
