@@ -17,7 +17,7 @@ Fear not! Learning how to program can be really fun, extremely useful, and actua
 
 Transfering your skills from another language (e.g. Python, MatLab) to HTML/CSS/JavaScript is probably easier than learning how to program for the first time. I'd recommend looking for tutorials where you can learn the basic syntax of HTML/CSS/JavaScript and perhaps even tutorials specifically targeted for people switching from the language you know to HTML/JS/CSS. Once you feel comfortable with the new syntax, try solving the three challenges. 
 
-## You already know how to code in HTML/JS/CSS 
+## You already know how to code in HTML/CSS/JS 
 
 If you already know how to code using these languages, you could think of the challenges as a "test" of your skills. If you solve all the three challenges quickly and easily, you're probably ready to go ahead and try out coding a real experiment with the lab. If you finished them all but it was harder than you expected, you probably are ready to code experiments, but you'll need to pick up some new tricks/practice more to get to a comfortable and efficient level.
 
