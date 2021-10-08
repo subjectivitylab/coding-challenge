@@ -17,7 +17,7 @@ var yellow = "rgb(255, 255, 0)";
 
 
 // create global variables for all trials
-var iti = 100; //ms
+var iti = 500; //ms
 var startDelay = 2000; //ms
 var currentTrial = -1;
 var colorWords = [];
