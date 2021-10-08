@@ -11,8 +11,8 @@
     <body>
         <div id = container>
             <div id = instructions>
-                <p><strong>Welcome to the experiment!</strong><br><br>
-                    In this study, you'll see words of colors (RED, GREEN, BLUE, YELLOW). Your job is to identify the color of the word's font (not the color that the word refers to). You'll do this by clicking on the circle at the bottom that matches the font's color. Note that the words may <strong>say</strong> something different (the word may be <span style="color: red"> GREEN</span>, but the font in this case is red). Since your job is to select the color of the font, the correct answer would be clicking on the red circle, not the green circle. The next word will appear after you click on the correct answer. Please be as fast as possible.
+                <h1><strong>Welcome to the experiment!</strong></h1>
+                <p>In this study, you'll see words of colors (RED, GREEN, BLUE, YELLOW). Your job is to identify the color of the word's font (not the color that the word refers to). You'll do this by clicking on the circle at the bottom that matches the font's color. Note that the words may <strong>say</strong> something different (the word may be <span style="color: red"> GREEN</span>, but the font in this case is red). Since your job is to select the color of the font, the correct answer would be clicking on the red circle, not the green circle. The next word will appear after you click on the correct answer. Please be as fast as possible.
                 </p>
                 <br>
                 <button onclick="showDemo()">See examples</button>
@@ -20,9 +20,13 @@
                               
             <div id = demoBox>
                 <p>Here are some example trials to give you a better sense of your task:</p>
+                <video id = demo controls autoplay>
+                    <source src="videos/demo.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
                 <br>
                 <br>
-                <img id = demo src= >
+                <br>
                 <br>
                 <br>
                 <button onclick="beginExperiment()">Start</button>
@@ -31,7 +35,7 @@
 
             <div id = experimentBox>                
                 <div id = wordBox>
-                    <p id = word></p>
+                    <p id = word>green</p>
                 </div>
                 <div id = colorSamples>
                     <div class = circle id = circle1 onclick="evaluateResponse('circle1')"></div>
@@ -39,7 +43,8 @@
                     <div class = circle id = circle3 onclick="evaluateResponse('circle3')"></div>
                     <div class = circle id = circle4 onclick="evaluateResponse('circle4')"></div>
                     <div class = circle id = circle5 onclick="evaluateResponse('circle5')"></div>
-                </div>                        
+                </div>    
+                                
             </div>
             <div id = endMessage>
                 <p>Thank you for participating!</p>

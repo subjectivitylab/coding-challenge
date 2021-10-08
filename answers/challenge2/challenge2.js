@@ -51,7 +51,7 @@ function beginExperiment() {
     $("#demoBox").hide();    
     setTimeout(nextTrial, startDelay); 
 }
- 
+
 function shuffle(array) {
 
     var m = array.length, t, i;
