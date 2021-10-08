@@ -55,7 +55,7 @@ button {
 #endMessage {
     display: none;
     font-size: 24pt;
-    color: red;
+    color: black;
     text-align: center;
     margin: auto;    
 }
