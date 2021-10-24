@@ -1,0 +1,38 @@
+<!-- Sample solution to Challenge 0 for Research Assistants - The Subjectivity Lab - Oct 2021' -->
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1">
+		<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <link rel = "stylesheet" type = "text/css" href = "challenge0.css">
+        <script src = "challenge0.js"></script>
+    </head>
+
+    <body>
+        <div id = container>
+            <h1 id = title>Challenge 0: <br>Building A Dynamic Website</h1>
+            <div id = biosketch>
+                <img id = headshot src="images/JorgeMorales_headshot.png" alt="Jorge's headshot">
+                <h2>Jorge Morales</h2>
+                <p id = biosketchText><span id = citySentence></span>Jorge is an Assistant Professor of Psychology and Philosophy at Northeastern University. He is the director of the Subjectivity Lab and he’s interested in the mind’s subjectivity: how does it work, how does it emerges, and how do we know it. His interdisciplinary research program integrates tools from psychology, neuroscience, and philosophy to study the interplay between perception, consciousness, and introspection. Before joining Northeastern, Jorge earned a PhD from Columbia University and was a postdoc at Johns Hopkins. Jorge obtained an MA at Mexico’s National University (UNAM) and a BA from Universidad Panamericana.</p>
+            </div>
+            
+            <div id = "city">
+                <br>
+                <label for="cityBox">In which city where you born?</label><br>
+                <input type="text" id = "cityBox" name = "cityBox" placeholder="e.g. Boston">
+                <button onclick="addCity()" id = "cityButton">Add place of birth</button>
+            </div>
+
+            <div id = "nightMode">        
+                <br>                    
+                <button onclick="nightMode()" id = "nightModeButton">Night mode</button>
+            </div>
+
+            <div>
+                <p id = dateTime>Date/Time: <span id="currentDateTime"></span></p>
+            </div>
+
+        </div>                           
+    </body>
+</html>

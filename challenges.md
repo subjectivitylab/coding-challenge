@@ -20,6 +20,29 @@ If you want to get a sense of what a full experiment looks like, download the Ex
 
 To complete these challenges you'll need to download Visual Studio Code to write up your code (or use your preferred editor, if you have one). 
 
+### Challenge 0: Make a simple interactive website
+Design a very simple website where you display text and images, and where some changes take place with the click of a button.
+
+1.1 Create a website in HTML where you display the title: "Challenge 0: Building A Dynamic Website"
+
+1.2 Create a short bio paragraph describing who you are in 3 or 4 sentences. 
+
+1.3 Using a CSS stylesheet, make sure the title is in bold, centered and at least 24pt black sans serif font. Make the biosketch text justified. Everything should be on a light background.
+
+1.4 Add your headshot photo. Make sure it appears in centered on the screen and above your name and biosketch. Make sure it is exactly 200px wide and 250px tall. Resize your photo using CSS code, not by cropping the photo before uploading it. Crop the image to make sure it doesn't appear distorted (e.g. squeezed or stretched).
+
+1.5 Put an input text box below your bio sketch where users can type in.
+
+1.6 Put a blue button next to the input box that says in white "Add place of birth". When the button is pressed the sentence "YOUR NAME was born in CITY" (where CITY is the text that was input in the input box) gets automatically added as the first sentence of the biosketch.
+
+1.7 Add a black button below the input box that says in white font: "Night mode". When pressed, invert the background and font colors (i.e. the blackground is now black and the fonts are in a light color).
+
+1.8 Make the "Night mode" button change to "Day mode" automatically when pressed. It should now be a white button with black text. When pressed, the new "Day mode" button should reverse the theme of the website to light background and black font, and the button should become again the "Night mode" button. 
+
+==BONUS==
+
+1.9 Add below everything the current date and the current time in a different font (e.g. serif). Make sure it updates both the date and time every time either button is pressed.
+
 ### Challenge 1: Where is the white square?
 
 Design a very simple task where subjects just determine whether a white square appeared on the left or the right side of the screen. 
@@ -63,9 +86,6 @@ Program a simple experiment to test the famous [Stroop Effect](https://en.wikipe
 ==BONUS==
 
 2.7 Prevent subjects from moving to the next trial unless they select the correct answer. Reaction time is now set from stimulus presentation to time of correct response, not their first response (in case they are different). Add to expData an array with information about which circles subjects clicked on before giving a correct answer as well as the RT for each click. Record whether the trial was congruent or incongruent, and how many mistakes the subjects made before getting the answer right.
-
-### Challenge 3: Coming soon!
-
 
 ## What to do when you're done
 
