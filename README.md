@@ -7,7 +7,7 @@ The main tool we use in the lab to run online experiments is a combination of HT
 
 Coding can be fun and the basics are often relatively easy to learn. At the beginning the learning curve may seem steep (what is a coding editor? wait, how do I make things happen? what is a function?), but once you cross that initial threshold you can learn quickly and start doing fun things and, more importantly, you can start doing science! I've found that the best way to learn (or test whether you know) a programming language is by trying to solve a real challenge. This is in contrast with, say, just following a tutorial in the vacuum. I think those are extremely useful, they may give you a better overall understanding of coding in general and of the language you're learning in particular. And, of course, to some extent you'll need to learn the basics by following some kind of online tutorial or by taking a class. But I think that to get to the point where you can code your own experiments the only way is to... just try it!
 
-In the spirit of this approach to coding, in this GitHub repository you'll find three coding "challenges" with different difficulty degrees: challenge 1 is a bit easier than challege 2 which is a bit easier than challenge 3. Depending on your current coding skills, you may approach the challenges differently.
+In the spirit of this approach to coding, in this GitHub repository you'll find three coding "challenges" with different difficulty degrees: challenge 0 is easier than challege 1 which is a bit easier than challenge 2. Depending on your current coding skills, you may approach the challenges differently.
 
 ## You've never programmed before
 
