@@ -1,7 +1,7 @@
 # HTML/CSS/JavaScript Coding Challenge for Creating Online Experiments
 ### Quick guide for creating your first online experiment 
 
-Hi, it's Prof Morales here. This GitHub repository contains a series of coding "challenges" that will help you learn HTML/CSS/JavaScript basics for creating online experiments. You can think of these challenges as fun, low-stakes ways of acquiring (or verifying that you already have) the "skills" you'll need to create your own experiments in our lab. 
+Hi, it's Jorge here. This GitHub repository contains a series of coding "challenges" that will help you learn HTML/CSS/JavaScript basics for creating online experiments. You can think of these challenges as fun, low-stakes ways of acquiring (or verifying that you already have) the "skills" you'll need to create your own experiments in our lab. 
 
 The main tool we use in the lab to run online experiments is a combination of HTML, CSS and JavaScript (not to be confused with Java!). While technically these are three different languages, they are often used together to create properly formatted, flexible, dynamic websites. For the most part, the internet runs on HTML/CSS/JavaScript, and this is 99% of what we need to run our online experiments. 
 
